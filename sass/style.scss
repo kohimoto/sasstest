@@ -21,6 +21,9 @@ body{
     float: left;
     width: 20%;
   }
+  &-inner {
+    color: $color;
+  }
   &-nav {
     width: 80%;
     float: left;

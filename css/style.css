@@ -2,28 +2,21 @@
 /** //SETTING **/
 body {
   color: #000066;
-  font-size: 16px;
-}
+  font-size: 16px; }
 
 .header {
   width: 1200px;
   margin: 0 auto;
-  overflow: hidden;
-}
-
-@media (max-width: 768px) {
-  .header {
-    width: 100%;
-  }
-}
-
-.header-logo {
-  float: left;
-  width: 20%;
-}
-
-.header-nav {
-  width: 80%;
-  float: left;
-  text-align: right;
-}
+  overflow: hidden; }
+  @media (max-width: 768px) {
+    .header {
+      width: 100%; } }
+  .header-logo {
+    float: left;
+    width: 20%; }
+  .header-inner {
+    color: #000066; }
+  .header-nav {
+    width: 80%;
+    float: left;
+    text-align: right; }
