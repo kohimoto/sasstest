@@ -1,0 +1,29 @@
+@charset "utf-8";
+/** SETTING **/
+$sp-width: 768px;
+$color: #000066;
+$font-size: 16px;
+/** //SETTING **/
+body{
+  color: $color;
+  font-size: $font-size;
+}
+.header {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+
+  @media(max-width: $sp-width) {
+    width: 100%;
+  }
+
+  &-logo {
+    float: left;
+    width: 20%;
+  }
+  &-nav {
+    width: 80%;
+    float: left;
+    text-align: right;
+  }
+}
